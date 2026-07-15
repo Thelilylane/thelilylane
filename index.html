@@ -184,7 +184,62 @@ color:#777;
 }
 
 </style>
+/* Hover Effects */
 
+.card{
+    transition:all .3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.buy,
+.button{
+    transition:all .3s ease;
+}
+
+.buy:hover{
+    background:#C9A96A;
+}
+
+.button:hover{
+    background:#b88d45;
+}
+
+nav a{
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#C9A96A;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+}
 </head>
 
 <body>
@@ -367,7 +422,7 @@ style="width:100%; max-width:500px; height:auto; display:block; margin:auto; bor
 
 © 2026 TheLilyLane • Create • Grow • Thrive
 
-</foote>
+</footer>
 
 </body>
 </html>
